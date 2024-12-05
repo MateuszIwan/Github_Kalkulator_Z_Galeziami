@@ -18,5 +18,10 @@ namespace Github_Kalkulator_Z_Galeziami
         {
             return a * a * a;
         }
+
+        public static double SzescianPlusKwadrat(double a)
+        {
+            return Szescian((int)a) + Kwadrat((int)a);
+        }
     }
 }
