@@ -50,5 +50,14 @@ namespace Github_Kalkulator_Z_Galeziami
             }
             return an;
         }
+
+        public static void WypiszCiagArytmetyczny(int an, int r, int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine("a" + (i + 1) + " = " + an);
+                an += r;
+            }
+        }
     }
 }
