@@ -10,6 +10,9 @@ namespace Github_Kalkulator_Z_Galeziami
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Kalkulator.Kwadrat(5));
+            Console.WriteLine(Kalkulator.Szescian(5));
+            Console.WriteLine(Kalkulator.SzescianPlusKwadrat(5));
         }
     }
 }
