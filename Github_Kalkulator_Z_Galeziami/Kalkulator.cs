@@ -44,7 +44,7 @@ namespace Github_Kalkulator_Z_Galeziami
 
         public static int LiczbaCiaguArytmetycznego(int an, int r, int n)
         {
-            for (int i = 0; i < n; i++)
+            for (int i = 1; i < n; i++)
             {
                 an += r;
             }
