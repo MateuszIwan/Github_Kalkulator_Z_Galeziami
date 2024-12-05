@@ -13,6 +13,8 @@ namespace Github_Kalkulator_Z_Galeziami
             Console.WriteLine(Kalkulator.Kwadrat(5));
             Console.WriteLine(Kalkulator.Szescian(5));
             Console.WriteLine(Kalkulator.SzescianPlusKwadrat(5));
+            Console.WriteLine(Kalkulator.Fibonacci(5));
+            Console.WriteLine(Kalkulator.LiczbaCiaguArytmetycznego(2, 3, 10));
         }
     }
 }
