@@ -16,7 +16,7 @@ namespace Github_Kalkulator_Z_Galeziami
 
         public static int Szescian(int a)
         {
-            return a * a * a;
+            return Kwadrat(a) * a;
         }
 
         public static int SzescianPlusKwadrat(int a)
