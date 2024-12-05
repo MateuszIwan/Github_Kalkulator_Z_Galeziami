@@ -13,5 +13,10 @@ namespace Github_Kalkulator_Z_Galeziami
         {
             return a * a;
         }
+
+        public static double Szescian(int a)
+        {
+            return a * a * a;
+        }
     }
 }
