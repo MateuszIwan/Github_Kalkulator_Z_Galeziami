@@ -50,5 +50,10 @@ namespace Github_Kalkulator_Z_Galeziami
             }
             return an;
         }
+
+        public static int ObliczanieLiczbyCiaguArytmetycznegoPomiedzyDwomaZnanymi(int anplus1, int anminus1)
+        {
+            return (anplus1 + anminus1)/2;
+        }
     }
 }
