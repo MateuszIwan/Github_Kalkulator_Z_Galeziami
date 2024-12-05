@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Github_Kalkulator_Z_Galeziami
 {
-    public static partial class Kalkulator
+    public static class Kalkulator
     {
         public static int Kwadrat(int a)
         {
